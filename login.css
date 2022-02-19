@@ -1,0 +1,41 @@
+*{
+padding:0;
+margin:0;
+font-family:sans-serif;
+}
+table{
+margin-top:190px;
+border-style: solid;
+border-color: black;
+}
+th {
+line-height:1cm;
+padding:10px;
+padding-left:5px;
+}
+
+td
+{
+	color:white;
+}
+ input
+ {
+	 background-color:#80dfff;
+	 
+ }
+a
+{
+	color:red;
+}
+
+.header{
+background-color:#33ccff;
+padding-top:10px;
+padding-bottom:10px;
+}
+body{
+background-image: url(login.jpg) ;
+height:100vh;
+background-size:cover;
+background-position:center;
+}

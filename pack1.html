@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pakages</title>
+<script src="https://kit.fontawesome.com/c06d122e96.js" crossorigin="anonymous"></script>
+<link rel="icon" href="logo.png"> </link>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Copperplate;
+  padding: 10px;
+  background: yellow;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: black;
+  color:white;
+}
+
+.header h1 {
+
+  font-size: 50px;
+ 
+}
+.header p {
+
+ color:red;
+ 
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #ff4d4d;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: red;
+  color: white;
+
+}
+.left
+{
+float:left;
+width:75%;
+}
+
+.right
+{
+float:left;
+width:25%;
+}
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 50%;
+ 
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 50%;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: blue;
+  width: 100%;
+  padding: 20px;
+ 
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: black;
+  padding: 20px;
+  margin-top: 20px;
+  color:white;
+}
+
+.car{
+  background-color: grey;
+  padding: 20px;
+  margin-top: 20px;
+  color:white;
+}
+.car p{
+text-align:left;
+}
+
+.left .content .social{
+margin: 20px 0 0 0 ;
+}
+
+.left .content .social a{
+
+padding: 0 2px;
+}
+
+.card h2 {
+text-align:center;
+}
+
+.card p {
+text-align:center;
+}
+
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Packages</h1>
+</div>
+
+<div class="topnav">
+  <a href="home.html">HOME</a>
+  <a href="Gallery.html">GALLERY</a>
+  <a href="Aboutus.html">TESTIMONIALS</a>
+  <a href="pack1.html">PACKAGES</a>
+  <a href="index.html">LOG OUT </a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>India</h2>
+	  <p>8 Days - Price &#x20b9; 39000</p>
+	  <img src="img3.jpg"  class="center">
+      
+    </div>
+   <div class="card">
+      <h2>Maldivs</h2>
+	  <p>7 Days - Price &#x20b9; 75000</p>
+	  <img src="pac5mal.jpg"  class="center">
+      
+    </div>
+    <div class="card">
+      <h2>France</h2>
+	  <p>14 Days - Price &#x20b9; 100000</p>
+	  <img src="pac2.jpg"  class="center">
+     
+    </div>
+	   <div class="card">
+      <h2>United States Of America</h2>
+	  <p>12 Days - Price &#x20b9; 150000</p>
+	  <img src="pac3.jpg"  class="center">
+     
+    </div>
+	<div class="card">
+      <h2>Italy</h2>
+	  <p>10 Days - Price &#x20b9; 950000</p>
+	  <img src="pac4.jpg"  class="center">
+      
+    </div>
+	
+  </div>
+  <div class="rightcolumn">
+   <div class="card">
+      <h2>Australia</h2>
+	  <p>18 Days - Price &#x20b9; 50000</p>
+	  <img src="aus.jpg"  class="center">
+     
+    </div>
+   <div class="card">
+      <h2>Brazil</h2>
+	  <p>10 Days - Price &#x20b9; 90000</p>
+	  <img src="pac10bra.jpg"  class="center">
+     
+    </div>
+   <div class="card">
+      <h2>United Kingdom</h2>
+	  <p>12 Days - Price &#x20b9; 80000</p>
+	  <img src="pac6uk.jpg"  class="center">
+      
+    </div>
+   <div class="card">
+      <h2>Dubai</h2>
+	  <p>15 Days - Price &#x20b9; 35000</p>
+	  <img src="pac7dub.jpg"  class="center">
+    
+    </div>
+	 <div class="card">
+      <h2>Japan</h2>
+	  <p>8 Days - Price &#x20b9; 75000</p>
+	  <img src="pac9jap.jpg"  class="center">
+     
+    </div>
+    
+  </div>
+</div>
+
+<div class="footer">
+  <div class="row">
+  <div class="left">
+    <div class="car">
+      <h2>About us</h2>
+	  <p>The Travellers World (TW) is the flagship digital consumer brand within the Columbus Travel Media portfolio. A comprehensive guide to the world’s best travel destinations, its print heritage stretches back 30 years, with the online portal reaching its 19-year anniversary in 2018. Available in English, German, French and Spanish versions, the WTG provides detailed and accurate travel content designed to inspire global traveller</p>
+      
+    </div>
+   </div>
+  
+  <div class="right">
+   <div class="car">
+     <h3>Address</h3>
+  <p>69, Vitaly Tower, Opp car show</p><p style=" line-height:0.79cm ;">Bandra west:400704</p>
+  <div class="social">
+<a href="#"><span class="fab fa-facebook-f"></span></a>
+<a href="#"><span class="fab fa-twitter"></span></a>
+<a href="#"><span class="fab fa-instagram"></span></a>
+<a href="#"><span class="fa fa-phone"></span></a>
+    </div>
+  </div>
+  
+  </div>
+  
+</div>
+
+</body>
+</html>
